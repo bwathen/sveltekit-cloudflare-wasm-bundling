@@ -1,5 +1,6 @@
 import Tesseract from "tesseract.js";
 import { json } from "@sveltejs/kit";
+import { Buffer } from "node:buffer";
 
 export const POST = async ({ request }) => {
   const data = await request.formData();

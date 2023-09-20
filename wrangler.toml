@@ -4,6 +4,8 @@ account_id = "6dc2c75cfe6d27d772bdeb08d972ab1a"
 main = "./.cloudflare/worker.js"
 site.bucket = "./.cloudflare/public"
 
+compatibility_flags = [ "nodejs_compat" ]
+
 build.command = "npm run build"
 
 compatibility_date = "2023-09-20"
