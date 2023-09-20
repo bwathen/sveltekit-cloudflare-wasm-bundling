@@ -21,7 +21,7 @@
 </script>
 
 <svelte:head>
-	<title>Vercel WASM Bundling</title>
+	<title>SvelteKit Vercel WASM Bundling</title>
 </svelte:head>
 
 <section>
