@@ -2,6 +2,9 @@ import Tesseract from "tesseract.js";
 import { json } from "@sveltejs/kit";
 import { Buffer } from "node:buffer";
 
+// eslint-disable-next-line no-undef
+globalThis.Buffer = Buffer;
+
 export const POST = async ({ request }) => {
   const data = await request.formData();
   const uploadedFile = data.get("file");
