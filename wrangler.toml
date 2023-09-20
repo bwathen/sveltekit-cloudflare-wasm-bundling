@@ -1,0 +1,10 @@
+name = "sveltekit-wasm-bundling-testing"
+account_id = "6dc2c75cfe6d27d772bdeb08d972ab1a"
+
+main = "./.cloudflare/worker.js"
+site.bucket = "./.cloudflare/public"
+
+build.command = "npm run build"
+
+compatibility_date = "2023-09-20"
+workers_dev = true
